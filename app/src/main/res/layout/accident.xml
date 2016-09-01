@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/accident_top"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/write_top"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="@color/wirte">
+        <ImageView
+            android:id="@+id/accident_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/backlast"
+            android:clickable="true"
+            android:foregroundGravity="left"
+            android:background="@color/wirte"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="交通事件"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@color/wirte" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:foregroundGravity="left"
+            android:background="@color/wirte"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_marginTop="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ges_station"
+        android:layout_weight="1" />
+
+
+    <ListView
+        android:id="@+id/accident"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></ListView>
+</LinearLayout>

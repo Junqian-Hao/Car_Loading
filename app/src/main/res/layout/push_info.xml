@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#06000000">
+
+    <LinearLayout
+        android:id="@+id/push"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:background="#f6f4f4">
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="亲，你的汽车闹脾气了(⊙_⊙;)"-->
+            <!--android:textColor="#000000"-->
+            <!--android:textSize="25sp"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/push_way"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="坏了，赶紧攒钱买新的吧，修不好了"-->
+            <!--android:layout_marginTop="13dp"-->
+            <!--android:textSize="20sp"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/push_know"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="朕知道了"-->
+            <!--android:textColor="#1fbaf3"-->
+            <!--android:textSize="23sp"-->
+            <!--android:layout_gravity="right"-->
+            <!--android:layout_marginTop="13dp"-->
+            <!--android:clickable="false"-->
+            <!--/>-->
+
+        </LinearLayout>
+
+</LinearLayout>
+

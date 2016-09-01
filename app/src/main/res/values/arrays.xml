@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="youpinzhonglei">
+        <item>93#汽油</item>
+        <item>90#汽油</item>
+        <item>97#汽油</item>
+        <item>98#汽油</item>
+        <item>0#柴油</item>
+        <item>-10#柴油</item>
+        <item>-20#柴油</item>
+        <item>-35#柴油</item>
+    </string-array>
+    <string-array name="chepaiqianzhui">
+        <item>京</item>
+        <item>皖</item>
+        <item>闽</item>
+        <item>甘</item>
+        <item>粤</item>
+        <item>桂</item>
+        <item>贵</item>
+        <item>琼</item>
+        <item>冀</item>
+        <item>豫</item>
+        <item>黑</item>
+        <item>鄂</item>
+        <item>湘</item>
+        <item>吉</item>
+        <item>苏</item>
+        <item>赣</item>
+        <item>辽</item>
+        <item>蒙</item>
+        <item>宁</item>
+        <item>青</item>
+        <item>鲁</item>
+        <item>晋</item>
+        <item>陕</item>
+        <item>沪</item>
+        <item>川</item>
+        <item>津</item>
+        <item>藏</item>
+        <item>新</item>
+        <item>云</item>
+        <item>浙</item>
+        <item>渝</item>
+    </string-array>
+    <string-array name="cheliangleixin">
+        <item>小型汽车号牌</item>
+        <item>大型汽车号牌</item>
+        <item>使馆汽车号牌</item>
+        <item>领馆汽车号牌</item>
+        <item>境外汽车号牌</item>
+        <item>外籍汽车号牌</item>
+        <item>两、三轮摩托车号牌</item>
+        <item>轻便摩托车号牌</item>
+        <item>使馆摩托车号牌</item>
+        <item>领馆摩托车号牌</item>
+        <item>境外摩托车号牌</item>
+        <item>外籍摩托车号牌</item>
+        <item>农用运输车号牌</item>
+    </string-array>
+</resources>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wirte"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp">
+
+        <TextView
+            android:id="@+id/gas_item_number"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:text="1"
+            android:textSize="10sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/wirte"
+            android:gravity="center"
+            android:background="@mipmap/gas_num"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/gas_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="加油站名称"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/gas_item_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加油站地点"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/huise"
+            android:textSize="15sp"
+            android:gravity="center_vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/gas"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="93#:"
+                    android:textSize="13sp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/gas_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="x.xx元"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="30dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/gas"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="97#:"
+                    android:textSize="13sp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/gas_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="x.xx元"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/gas"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="90#车柴:"
+                    android:textSize="13sp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/gas_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="x.xx元"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:id="@+id/car_image"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:src="@mipmap/car"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/car_number"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="车辆名称"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/longin_one"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/chejiahao"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="车牌号码：xxxxxxxxx"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/huise"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/next"
+        android:id="@+id/item_next"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

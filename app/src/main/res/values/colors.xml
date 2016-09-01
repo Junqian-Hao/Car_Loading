@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="versionNumber">#f6f4f4</color>
+    <color name="blue">#ECEDF1</color>
+    <color name="longin_one">#1fbaf3</color>
+    <color name="longin_two">#1BA7DA</color>
+    <color name="wirte">#FFFFFF</color>
+    <color name="huise">#818C9E</color>
+    <color name="black">#000000</color>
+    <color name="write_top">#b2b2b3</color>
+    <color name="blue_top">#1eaee3</color>
+</resources>

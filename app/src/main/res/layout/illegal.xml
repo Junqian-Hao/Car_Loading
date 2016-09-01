@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/illegal_top"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/write_top"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="@color/wirte">
+    <ImageView
+        android:id="@+id/illegal_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/backlast"
+        android:clickable="true"
+        android:foregroundGravity="left"
+        android:background="@color/wirte"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="违章查询"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/wirte" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:foregroundGravity="left"
+            android:background="@color/wirte"/>
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/illegal_info"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/wirte"
+        android:layout_marginTop="1dp">
+    </Spinner>
+
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/wirte"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="违章："
+                android:textColor="@color/huise"
+                android:textSize="13sp"
+                android:gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/illegal_sum"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="3"
+                android:textColor="#f40505"
+                android:textSize="13sp"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="扣分："
+                android:textColor="@color/huise"
+                android:textSize="13sp"
+                android:gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/point_sum"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="12"
+                android:textColor="#f40505"
+                android:textSize="13sp"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="罚款："
+                android:textColor="@color/huise"
+                android:textSize="13sp"
+                android:gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/money_sum"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="600"
+                android:textColor="#f40505"
+                android:textSize="13sp"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="违章信息"
+        android:textColor="@color/longin_two"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="1dp"
+        android:background="@color/wirte" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/illgeal_list"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/wirte"
+        android:layout_marginTop="1dp"/>
+
+</LinearLayout>

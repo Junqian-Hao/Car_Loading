@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wirte"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp">
+
+        <TextView
+            android:id="@+id/accident_item_number"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:text="1"
+            android:textSize="10sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/wirte"
+            android:gravity="center"
+            android:background="@mipmap/accidentd_num"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/accident_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="事件名称"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/accident_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="事件描述"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/huise"
+            android:textSize="15sp"
+            android:gravity="center_vertical" />
+
+
+        <TextView
+            android:id="@+id/accident_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开始时间-结束时间"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/huise"
+            android:textSize="15sp"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+</LinearLayout>

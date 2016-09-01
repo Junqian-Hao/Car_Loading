@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue">
+
+    <TextView
+        android:id="@+id/navi_top"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/write_top"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/wirte"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:inputType="textPersonName"
+            android:hint="请输入目的地"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:background="@color/wirte"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/nav_serach"
+            android:src="@mipmap/search"
+            android:background="@drawable/write_huise"
+            android:layout_marginLeft="1dp"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/nav_switch"
+            android:src="@mipmap/transfer"
+            android:background="@drawable/write_huise"
+            android:layout_marginLeft="1dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:id="@+id/nav_bts"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:layout_marginTop="1dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="安全驾驶模式"
+            android:id="@+id/button"
+            android:background="@drawable/write_huise"
+            android:layout_marginRight="1dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="普通导航模式"
+            android:id="@+id/button2"
+            android:background="@drawable/write_huise"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"/>
+
+    </LinearLayout>
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_marginTop="1dp"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+</LinearLayout>

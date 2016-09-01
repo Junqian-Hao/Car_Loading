@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue">
+
+    <TextView
+        android:id="@+id/feadback_top"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/write_top"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="@color/wirte">
+        <ImageView
+            android:id="@+id/illegal_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/backlast"
+            android:clickable="true"
+            android:foregroundGravity="left"
+            android:background="@color/wirte"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="联系我们"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@color/wirte" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:foregroundGravity="left"
+            android:background="@color/wirte"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="1dp"
+        android:background="@color/wirte"
+        android:hint="请留下您宝贵的建议..."
+        android:gravity="top"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/wirte"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bt_login"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="提交"
+            android:textColor="@color/wirte"
+            android:id="@+id/fead_button"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+</LinearLayout>

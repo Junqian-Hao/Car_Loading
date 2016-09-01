@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@mipmap/back"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:id="@+id/personal_top" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/textView2"
+                android:text="个人中心"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/huise" />
+
+        <com.example.uriel.car_loading.CircleImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/personal_image"
+            android:src="@mipmap/logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:clickable="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名"
+            android:textSize="18sp"
+            android:textColor="@color/longin_one"
+            android:id="@+id/personal_name"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/personal_change_password"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:background="@drawable/write_huise">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text=" 修改密码"
+                android:textStyle="bold"
+                android:textColor="@color/huise"
+                android:gravity="center_vertical"
+                android:layout_weight="7" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="22dp"
+                android:src="@mipmap/next"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/personal_binding"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:clickable="true"
+            android:background="@drawable/write_huise">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text=" 绑定(解除)车辆"
+                android:textStyle="bold"
+                android:textColor="@color/huise"
+                android:gravity="center_vertical"
+                android:layout_weight="7" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="22dp"
+                android:src="@mipmap/next"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/personal_help"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:clickable="true"
+            android:background="@drawable/write_huise" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text=" 获取帮助"
+                android:textStyle="bold"
+                android:textColor="@color/huise"
+                android:gravity="center_vertical"
+                android:layout_weight="7" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="22dp"
+                android:src="@mipmap/next"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/personal_feedback"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:clickable="true"
+            android:background="@drawable/write_huise" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text=" 联系我们"
+                android:textStyle="bold"
+                android:textColor="@color/huise"
+                android:gravity="center_vertical"
+                android:layout_weight="7" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="22dp"
+                android:src="@mipmap/next"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/personal_exit"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:clickable="true"
+            android:background="@drawable/write_huise" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text=" 退出登录"
+                android:textStyle="bold"
+                android:textColor="@color/huise"
+                android:gravity="center_vertical"
+                android:layout_weight="7" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="22dp"
+                android:src="@mipmap/next"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

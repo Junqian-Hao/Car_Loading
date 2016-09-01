@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wirte"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp">
+
+        <TextView
+            android:id="@+id/item_numnber"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:text="序号"
+            android:textSize="10sp"
+            android:textColor="@color/wirte"
+            android:gravity="center"
+            android:background="@mipmap/num"/>
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/huise"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="违章时间"
+            android:textColor="@color/huise"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/item_location"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="违章地点"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/longin_two"
+            android:textSize="15sp"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/item_way"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="违章原因"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:gravity="center_vertical" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@mipmap/money"/>
+
+                <TextView
+                    android:id="@+id/item_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="罚款"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="15dp">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@mipmap/points_"/>
+
+                <TextView
+                    android:id="@+id/itemm_point"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="扣分"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

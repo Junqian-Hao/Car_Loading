@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/reservation_top"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/write_top"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="@color/wirte">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/backlast"
+            android:clickable="true"
+            android:foregroundGravity="left"
+            android:background="@color/wirte"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/reservation_back"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="预约加油"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@color/wirte" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:foregroundGravity="left"
+            android:background="@color/wirte"/>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/reservation_center">
+
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/reservation_middle">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/name"
+                android:layout_marginTop="1dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:text="姓名"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:id="@+id/name_prompt"
+                    android:background="@color/wirte"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/name_input"
+                    android:background="@color/wirte" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="1dp"
+                android:id="@+id/time">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:text="时间"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:id="@+id/time_prompt"
+                    android:background="@color/wirte"/>
+
+                <TextView
+                    android:background="@color/wirte"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="XXXX-XX-XX"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:id="@+id/time_input"
+                    android:gravity="center_vertical"
+                    android:clickable="true"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/time"
+                android:layout_marginTop="1dp"
+                android:id="@+id/station">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:text="加油站"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:id="@+id/station_prompt"
+                    android:background="@color/wirte"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPostalAddress"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:id="@+id/station_input"
+                    android:background="@color/wirte" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/station"
+                android:layout_marginTop="1dp"
+                android:id="@+id/type">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:text="加油类型"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:id="@+id/type_prompt"
+                    android:background="@color/wirte"/>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:id="@+id/type_input"
+                    android:entries="@array/youpinzhonglei"
+                    android:background="@color/wirte"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/type"
+                android:layout_marginTop="1dp"
+                android:id="@+id/oil">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:text="加油数量"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:id="@+id/oil_prompt"
+                    android:background="@color/wirte"/>
+
+                <EditText
+                    android:background="@color/wirte"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:inputType="numberSigned"
+                    android:ems="10"
+                    android:id="@+id/oil_input"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/invoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="是否需要发票"
+                android:checked="false"
+                android:textColor="@color/huise"
+                android:layout_below="@+id/oil"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/checkbox"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/invoice"
+                android:id="@+id/reservation_bottom"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="确定"
+                    android:textSize="20sp"
+                    android:textColor="@color/wirte"
+                    android:background="@drawable/bt_login"
+                    android:id="@+id/reservation_determine"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:id="@+id/reservation_right" />
+
+    </LinearLayout>
+
+</LinearLayout>

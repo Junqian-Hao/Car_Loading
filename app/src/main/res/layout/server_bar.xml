@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/server_bar"
+    android:background="@color/longin_one"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/server_top"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/blue_top"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="服务"
+        android:textSize="20sp"
+        android:textColor="@color/wirte"
+        android:textStyle="bold"
+        android:gravity="center" />
+</LinearLayout>

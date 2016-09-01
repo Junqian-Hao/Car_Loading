@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">车联网</string>
+    <string name="button_denglu">手机号登录</string>
+    <string name="button_zhuce">手机号注册</string>
+</resources>
